@@ -10,13 +10,11 @@ body{
     
     font-family:Roboto,sans-serif;
     line-height: 1.5;
-    width: 1440px;
-    height: 3300px;
-    background: #FFFFFF;
+    color: #434455;
 }
 
 .none{
- display: none;
+
 }
 
 button{
@@ -35,20 +33,14 @@ button{
         font-family: Raleway,sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
-        /* 116.667% */
-        letter-spacing: 0.54px;
-        color:#2E2F42;
+        line-height: 1.17;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+        color:#4d5ae5;
 
     }
 .logo{ 
-        font-family: Raleway;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 21px;
-        /* 116.667% */
-        letter-spacing: 0.54px;
-        color:#4D5AE5;
+        color:#2e2f42;
     }
 
     
@@ -58,80 +50,68 @@ button{
 .menu-item{
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
-    /* 150% */
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color:#2E2F42;
 }
-.adres{
-        /* Body */
+.menu-item :hover,
+.menu-item :focus{
+    color: #404bbf
+}
+
+.normalize-address{
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 1.5;
         color:#434455;
-        /* 150% */
-        letter-spacing: 0.32px;
+        letter-spacing: 0.02em;
 }
-.hero{
-    background: #2e2f42;
-}
-.button-hero{
-    width: 160px;
-    height: 80px;
-    border-radius: 8px;
-    background:#4D5AE5;
- }   
- .button-text{
 
+.hero{
         /* Button Text */
         font-size: 16px;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1.5;
         color: #FFF;
-        /* 150% */
-        letter-spacing: 0.64px;
+        letter-spacing: 0.4em;
+        background: #2e2f42;
  }
+    
+
 .hero-page{
     
         /* Header 1 */
         font-size: 56px;
         font-weight: 700;
-        line-height: 60px;
-     
-        /* 107.143% */
-        letter-spacing: 1.12px;
-        width: 1440px;
-        height: 600px;
-        color:#bc8383;
+        line-height: 1.07;
+        letter-spacing: 0.002em;
+        text-align: center;
+        color:#ffffff;
 }
 .section-adv-item-h{
 
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     color: #2E2F42;
-    /* 120% */
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 
 }
 .section-adv-item-p{
 
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     color:  #434455;
-    /* 150% */
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 .team{
         /* Header 2 */
         font-size: 36px;
         font-weight: 700;
-        line-height: 40px;
-        
-        /* 111.111% */
-        letter-spacing: 0.72px;
+        line-height:1.1 ;
+        letter-spacing: 0.02em;
         text-transform: capitalize;
 }
 .team-items{
@@ -139,50 +119,43 @@ button{
     /* Header 3 */
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     color:#2E2F42;
-    /* 120% */
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 }
 .proftssion{
 
     /* Body */
     font-size: 16px;
-    font-style:normal ;
+    font-style:normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     color:#434455;
-    /* 150% */
-    letter-spacing: 0.4px;
+    letter-spacing: 0.025em;
 }
 /* footer */
 .footer-wrapper{
     background: #2e2f42;
 }
 .footer-logo{
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 21px;
-color:#F4F4FD;
-/* 116.667% */
-letter-spacing: 0.54px
-}
-.logo-span{
     font-family: Raleway;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 21px;
-        /* 116.667% */
-        letter-spacing: 0.54px;
-color:#4D5AE5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height:  1.17;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color:#4D5AE5;
+}
+
+
+.logo-span{
+color:#F4F4FD;
+
 }
 .description{
-color:#F4F4FD;
+    color:#F4F4FD;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
-    /* 150% */
-    letter-spacing: 0.32px;
+    line-height:1.5;
+    letter-spacing: 0.02em;
 }
