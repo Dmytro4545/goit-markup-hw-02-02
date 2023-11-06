@@ -37,7 +37,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;  
-    background: var(--IRIS, #4D5AE5);
+    background:#4D5AE5;
     cursor: pointer;
 }
 
@@ -92,7 +92,7 @@ button {
     letter-spacing: 0.02em;
 }
 .address-link {
-    color: var(--SLATE, #434455);
+    color:#434455;
     
         font-size: 16px;
      
@@ -102,7 +102,7 @@ button {
 }
 .address-link:hover,
 .address-link:focus {
-    color: var(--OCEAN, #404BBF);
+    color:#404BBF;
 }
 .hero {
     /* Button Text */
